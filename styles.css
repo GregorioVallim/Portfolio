@@ -206,3 +206,166 @@ body {
 .icon-social i {
     color: #000;
 }
+
+/* Portfólio */
+
+.portfolio {
+    padding: 40px 4%;
+    box-shadow: 0 0 8px #00000045;
+}
+
+.portfolio .flex {
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.img-portfolio {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-portfolio:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a8;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.btn-mais {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.btn-mais button {
+    
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #000;
+    color: #FFF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-mais button:hover {
+    color: #858383;
+    transform: scale(1.10);
+}
+
+/* Contato */
+
+.formulario {
+    padding: 40px 4%;    
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #85838329;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #000;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 600px;
+}
+
+.btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    
+.btn-enviar input[type=submit] {
+    width: 100px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #000;
+    color: #FFF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.4s;   
+    
+}
+.btn-enviar input:hover {
+    color: #858383;
+    transform: scale(1.10);
+}
+
+/* Rodapé */
+
+footer {
+    padding: 20px 4%;
+    box-shadow: 0 0 8px #00000045;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+.line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #000;
+}
+
+.line-footer p i {
+    color: #000;
+    font-size: 22px;
+}
+
+.line-footer p a {
+    text-decoration: none;
+    color: #000;
+}
+
+.line-footer p a:hover {
+    text-decoration: underline;
+}
+
