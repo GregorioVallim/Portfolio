@@ -47,7 +47,7 @@ body {
     display: inline-block;
 }
 
-.menu-desktop a:hover, 
+.menu-desktop a:hover,
 .btn-contato button:hover {
     color: #858383;
     transform: scale(1.10);
@@ -59,7 +59,7 @@ body {
 }
 
 .btn-contato button {
-   
+
     padding: 10px 40px;
     font-size: 18px;
     font-weight: bold;
@@ -69,7 +69,7 @@ body {
     border-radius: 30px;
     cursor: pointer;
     transition: 0.4s;
-    
+
 }
 
 /* Topo do site */
@@ -113,6 +113,7 @@ body {
     0% {
         top: 0;
     }
+
     100% {
         top: 15px;
     }
@@ -264,7 +265,7 @@ body {
 }
 
 .btn-mais button {
-    
+
     padding: 15px 15px;
     font-size: 18px;
     font-weight: bold;
@@ -284,7 +285,7 @@ body {
 /* Contato */
 
 .formulario {
-    padding: 40px 4%;    
+    padding: 40px 4%;
 }
 
 form {
@@ -296,7 +297,8 @@ form {
     gap: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     background-color: #85838329;
     border: 0;
@@ -317,7 +319,7 @@ form textarea {
     text-align: center;
 }
 
-    
+
 .btn-enviar input[type=submit] {
     width: 100px;
     height: 60px;
@@ -328,9 +330,10 @@ form textarea {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
-    transition: 0.4s;   
-    
+    transition: 0.4s;
+
 }
+
 .btn-enviar input:hover {
     color: #858383;
     transform: scale(1.10);
@@ -369,3 +372,131 @@ footer .flex {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1020px) {
+
+    .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .title span {
+        font-size: 30px;
+    }
+    
+    .flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    /* Cabeçalho */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    .nav-container {
+        justify-content: center;
+    }
+
+    /* Topo do site */
+    .topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .txt-topo-site h1 {
+        font-size: 30px;
+        
+    }
+
+    .txt-topo-site h1 span {
+        font-size: 30px;
+    }
+
+    .img-topo-site img {
+        width: 100%;
+    }
+
+    /* Especialidades */
+
+    .especialidades {
+        padding: 40px 8%;
+    }
+
+    .especialidades-box i {
+        font-size: 50px;
+    }
+
+    .especialidades-box h3 {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+
+    
+
+    /* Sobre */
+
+    .sobre {
+        padding: 10px 8%;
+    }
+
+    .sobre .flex {
+        flex-direction: column-reverse;
+    }
+
+    .txt-sobre h2 {
+        text-align: center;
+    
+    }
+    
+    .rede-social {
+        justify-content: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /* Portfólio */
+
+    .portfolio {
+        padding: 20px 8%;
+        
+    }
+
+    .img-portfolio {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .formulario {
+        padding: 40px 10%;
+              
+    }
+    
+    form input,
+    form textarea {
+        width: 100%;
+        text-align: center;
+        
+        
+        padding: 10px 5px;
+        
+    }
+
+    /* Rodapé */
+
+
+    .line-footer {
+        text-align: center;
+    }
+
+    footer .rede-social .logo-footer {
+        padding: 5px;
+    }
+
+}
