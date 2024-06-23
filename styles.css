@@ -17,7 +17,7 @@ body {
 /* Cabeçalho */
 
 
-.menu-mobile, .bi, .btn-abrir-menu { 
+.menu-mobile, .btn-abrir-menu { 
     display: none;
 }
 
@@ -75,7 +75,7 @@ body {
     border-radius: 30px;
     cursor: pointer;
     transition: 0.4s;
-
+    
 }
 
 /* Topo do site */
