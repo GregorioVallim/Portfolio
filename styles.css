@@ -17,19 +17,18 @@ body {
 /* Cabeçalho */
 
 
-.menu-mobile, .btn-abrir-menu { 
+.menu-mobile, .btn-abrir-menu, .overlay-menu { 
     display: none;
 }
 
 .header {
-    padding: 10px 50px;
+    padding: 10px 60px;
     background-color: #FFF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
 }
 
 .nav-container {
-    max-width: 1700px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -48,6 +47,7 @@ body {
 .menu-desktop a {
     text-decoration: none;
     color: #000;
+    font-size: 20px;
     font-weight: bold;
     transition: 0.4s;
     display: inline-block;
@@ -64,8 +64,8 @@ body {
     height: 90px;
 }
 
-.btn-contato button {
 
+.btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: bold;
@@ -74,8 +74,7 @@ body {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
-    transition: 0.4s;
-    
+    transition: 0.4s;    
 }
 
 /* Topo do site */
@@ -191,6 +190,7 @@ body {
 }
 
 .rede-social {
+    margin-bottom: 20px;
     display: flex;
     gap: 20px;
 }
@@ -203,10 +203,11 @@ body {
     margin-top: 20px;
     border-radius: 50%;
     transition: 0.5s;
+    box-shadow: 0 0 8px #858383;
 }
 
 .icon-social:hover {
-    transform: scale(1.10);
+    transform: scale(1.20);
     box-shadow: 0 0 8px #858383;
 }
 
